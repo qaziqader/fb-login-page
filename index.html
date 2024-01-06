@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Facebook | Login</title>
+  </head>
+  <body>
+    <!-- header start -->
+    <header>
+      <div class="organized">
+        <div class="logo">
+          <h1>Facebook</h1>
+        </div>
+        <div class="inputs">
+          <div class="email">
+            <input
+              type="email"
+              required="required"
+              placeholder="Email address or phone number"
+            />
+          </div>
+          <div class="password">
+            <input type="password" required="required" placeholder="Password" />
+            <p class="itsSpan"><a href="#">Forgot account?</a></p>
+          </div>
+          <div class="btn">
+            <button><a href="#">Log in</a></button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- header end -->
+
+    <main>
+      <div class="leftSide">
+        <div class="heading">
+          <h2>Connect with friends and the world around you on facebook.</h2>
+        </div>
+        <div class="instructions">
+          <div class="instruction">
+            <img src="Asset 1@2x.png" alt="" style="width: 4rem;"/>
+            <p>
+              <strong>See photos and updates</strong> from friends in News Feed.
+            </p>
+          </div>
+          <div class="instruction">
+            <img src="Asset 2@4x.png" alt="" style="width: 4rem;"/>
+            <p>
+              <strong>Share what's new</strong> in your life on your Timeline.
+            </p>
+          </div>
+          <div class="instruction">
+            <img src="Asset 3@2x.png" alt="" style="width: 4rem;"/>
+            <p>
+              <strong>Find more</strong> of what you're looking for with
+              Facebook Search.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="rightSide">
+        <div class="formHeadings">
+          <h1>Sign Up</h1>
+          <span>It's free and always will be</span>
+        </div>
+        <div class="formDiv">
+          <form action="form.php">
+            <div class="inputs2">
+            <input type="text" placeholder="First name" class="fName" />
+            <input type="text" placeholder="Last name" class="lName"/>
+            </div>
+            <input type="email" placeholder="Email" class="emaill"/>
+            <input type="password" placeholder="New password" class="passsword"/>
+            <span for="month" style="font-size: 2rem; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Birthday</span>
+            <div class="centralFormGroup">
+              
+            <div class="formGroup">
+              <select id="month" name="month" required >
+                <option value="" disabled selected>Select Month</option>
+                <option value="01">January</option>
+                <option value="02">February</option>
+                <option value="03">March</option>
+                <option value="04">April</option>
+                <option value="05">May</option>
+                <option value="06">June</option>
+                <option value="07">July</option>
+                <option value="08">August</option>
+                <option value="09">September</option>
+                <option value="10">October</option>
+                <option value="11">November</option>
+                <option value="12">December</option>
+              </select>
+            </div>
+
+            <div class="formGroup" >
+              <input
+                type="number"
+                id="day"
+                name="day"
+                min="1"
+                max="31"
+                placeholder="Day"
+                required
+              />
+            </div>
+
+            <div class="formGroup">
+              <input
+                type="number"
+                id="year"
+                name="year"
+                min="1900"
+                max="2024"
+                placeholder="Year"
+                required
+              />
+            </div>
+        </div>
+
+        <div class="formGroup lastFormG">
+          <div class="frmG">
+          <div class="mG">
+            <input
+            type="radio"
+            id="male"
+            name="gender"
+            value="male"
+            required
+            />
+            <label for="male">Male</label>
+          </div>
+          <div class="fG">
+            <input
+            type="radio"
+            id="female"
+            name="gender"
+            value="female"
+            required
+            />
+            <label for="female">Female</label>
+          </div>
+        </div>
+        <p class="lastP">By clicking Sign Up, you agree to our <a href="#">Terms</a>, <a href="#">Data Policy</a> and <a href="#">Cookies Policy</a>. You may recieve SMS notifications from us and can opt out any time.</p>
+          <button type="submit" style="width: 10rem; height: 2.5rem; font-size: 1.3rem;background-color: rgb(3, 155, 18);">Sign Up</button>
+        </div>
+      </div>
+    </form>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
